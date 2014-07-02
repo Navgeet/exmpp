@@ -1,5 +1,5 @@
 % -*- mode: erlang -*-
-{application, erim, [
+{application, exmpp, [
     {description, "XMPP/Jabber protocol oriented XML library"},
     {vsn, "0.10"},
     {modules, [

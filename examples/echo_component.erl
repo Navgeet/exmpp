@@ -29,8 +29,8 @@
 %% echo_component:stop(Session).</pre>
 -module(echo_component).
 
--include_lib("erim/include/exmpp.hrl").
--include_lib("erim/include/exmpp_client.hrl").
+-include_lib("exmpp/include/exmpp.hrl").
+-include_lib("exmpp/include/exmpp_client.hrl").
 
 -export([start/0, stop/1]).
 -export([init/0]).
